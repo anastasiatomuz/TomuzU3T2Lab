@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class DivisibilityNumbers {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
@@ -29,7 +29,7 @@ public class Main {
             }
 
         }else{
-           System.out.println("That's not positive!");
+            System.out.println("That's not positive!");
         }
 
     }
