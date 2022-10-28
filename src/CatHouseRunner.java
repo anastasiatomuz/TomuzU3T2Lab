@@ -3,28 +3,28 @@ public class CatHouseRunner
 {
     public static void main(String[] args)
     {
-        // here is some that will run right away, just to play around
-        // (make sure to compile both your Cat and Cathouse classes first!)
-        Cat daisy = new Cat("Daisy", 3);
-        Cat eleanor = new Cat("Eleanor", 8);
-
-        CatHouse cats = new CatHouse(daisy, eleanor, "Max");
-
-        // print CatHouse info
-        System.out.println(cats);
-
-        cats.rollCall();
+//        // here is some that will run right away, just to play around
+//        // (make sure to compile both your Cat and Cathouse classes first!)
+//        Cat daisy = new Cat("Daisy", 3);
+//        Cat eleanor = new Cat("Eleanor", 8);
+//
+//        CatHouse cats = new CatHouse(daisy, eleanor, "Max");
+//
+//        // print CatHouse info
+//        System.out.println(cats.houseInfo());
+//
+//        cats.rollCall();
 
         // HERE IS TEST CODE; UNCOMMENT WHEN YOU NEED IT!
- /* 
+
     // ------- Test set 1 -------
     Cat garfield = new Cat("Garfield", 5);
     Cat crookshanks = new Cat("Crookshanks", 6);
     
-    CatHouse myCats = new CatHouse(garfield, crookshanks, "Mr. Miller");
+    CatHouse myCats = new CatHouse(garfield, crookshanks, "Anastasia");
 
     // print CatHouse info
-    System.out.println(myCats);
+    System.out.println(myCats.houseInfo());
     
     // older cat, Crookshanks, speaks first!
     myCats.rollCall();
@@ -41,7 +41,7 @@ public class CatHouseRunner
     CatHouse yourCats = new CatHouse(toby, ziggy, "Alex");
      
     // print CatHouse info
-    System.out.println(yourCats);
+    System.out.println(yourCats.houseInfo());
     
     // older cat, Toby, speaks first!
     yourCats.rollCall();
@@ -57,7 +57,7 @@ public class CatHouseRunner
     CatHouse neighborsCats = new CatHouse(katie, billy, "Ms. Thompson");
      
     // print CatHouse info
-    System.out.println(neighborsCats);   
+    System.out.println(neighborsCats.houseInfo());
     
     // same age, so Billy speaks first because B before K
     neighborsCats.rollCall(); 
@@ -73,14 +73,13 @@ public class CatHouseRunner
     CatHouse sameCats = new CatHouse(autumn1, autumn2, "ASPCA");
 
     // print CatHouse info
-    System.out.println(sameCats); 
+    System.out.println(sameCats.houseInfo());
 
     // same age, same name, so autumn1 speaks first...
     // although you can't really tell :p
     sameCats.rollCall();
        
     sameCats.catNoise();
-    
-    */
+
     }
 }
